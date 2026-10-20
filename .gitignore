@@ -1,56 +1,26 @@
-# =====================================================================
-#  RustDesk 一键配置助手 (rustdesk-helper-cn) - .gitignore
-#  面向 Windows + C# 单文件（csc.exe）编译场景
-# =====================================================================
-
-# ---- 编译产物 ----
-# 本仓库使用系统自带 csc.exe 单文件编译，产物默认输出到仓库上一级，
-# 但仍保留常见构建目录规则，避免误提交。
-bin/
-obj/
+# 构建产物
 *.exe
-*.dll
-*.pdb
-*.mdb
-*.ilk
-*.obj
-*.o
-*.lib
-*.exp
+!RustDeskHelper.exe
 
-# ---- 调试 / 中间文件 ----
-*.user
-*.userosscache
-*.suo
-*.sln.docstates
-*.cache
+# 日志与本地数据
 *.log
-*.tlog
-*.vspscc
-*.vssscc
+helper.log
+settings.txt
+fixed-password.txt
+fixed-password.applied.txt
 
-# 编译脚本使用的临时构建目录（位于 %TEMP%，此处仅为保险）
-rdhelper_build/
+# 用户本地资料（勿上传）
+rustdesk-backup-*/
+远程办公全套备份_*/
+W2022远程信息.md
+Hermes远程接入说明.md
+.workbuddy/
 
-# ---- Windows 系统生成文件 ----
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
-Desktop.ini
-$RECYCLE.BIN/
-*.stackdump
+# RustDesk 配置样例（可能含真实 Key）
+*.toml
 
-# ---- 敏感信息（本工具不内置任何私人服务器信息，切勿提交）----
-# 若你出于本地调试把地址 / Key 写进了临时文件，务必不要提交。
-secrets.txt
-*.key
-.local/
-private/
-
-# ---- 编辑器 / IDE ----
+# IDE / 系统
 .vs/
 .vscode/
-.idea/
-*.swp
-*~
+Thumbs.db
+Desktop.ini
