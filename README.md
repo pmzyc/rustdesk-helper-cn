@@ -57,7 +57,7 @@ verification-method = 'use-both-passwords'
 
 ## 快速开始
 
-1. 从 [Releases](https://github.com/pmzyc/rustdesk-helper-cn/releases) 下载 `RustDeskHelper.exe`
+1. 下载 `RustDeskHelper.exe`：[直接下载](https://github.com/pmzyc/rustdesk-helper-cn/raw/main/RustDeskHelper.exe)（也可在 [Releases](https://github.com/pmzyc/rustdesk-helper-cn/releases) 页面获取）
 2. 确保已安装 RustDesk 客户端（[官方下载](https://rustdesk.com/zh/)）
 3. 右键"以管理员身份运行"助手（部分功能需要）
 4. 在【服务器设置】页选一个模式，点同步
