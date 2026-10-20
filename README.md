@@ -12,6 +12,8 @@ RustDesk 官方客户端功能很强，但配置项分散在多个 TOML 文件�
 
 **单文件 72 KB**，.NET Framework 4.0 自带于所有 Windows，无需安装运行时。
 
+![助手主界面](docs/images/screenshot-main.png)
+
 ## 功能一览
 
 - **三种使用模式**：官方公共服务 / 自建服务器 / 仅局域网，一键切换
